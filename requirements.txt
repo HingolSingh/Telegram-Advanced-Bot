@@ -1,0 +1,39 @@
+# Core Bot
+python-telegram-bot==20.3
+python-dotenv==1.0.1
+requests==2.32.3
+httpx==0.24.1
+aiohttp==3.9.5
+asyncpg
+ docx
+greenlet>=3.0.0
+flask[async]
+
+# AI Models
+google-generativeai     # Gemini (Google AI)
+openai==1.47.1                 # GPT models
+anthropic==0.34.2              # Claude
+
+# Media Support
+Pillow               # Image support
+aiofiles==23.2.1               # Async file operations
+python-magic
+
+# Optional Utilities
+Flask==3.0.2                   # Webhook
+psutil==5.9.8                  # System monitoring
+sqlalchemy==2.0.31             # Database
+
+# Extra AI/Features (Now enabled)
+stability-sdk==0.6.1           # Stability AI image generation
+newsapi-python==0.2.6          # News API
+pyowm==3.3.0                   # OpenWeatherMap
+deep-translator==1.9.1         # Translation
+PyPDF2==3.0.1                  # PDF tools
+pytesseract==0.3.10            # OCR (Tesseract required)
+
+# GRPC pinning for compatibility
+grpcio==1.53.0
+grpcio-tools==1.53.0
+grpcio-status==1.53.0
+ 
